@@ -1,5 +1,5 @@
 import ThemeToggle from './ThemeToggle.tsx';
-import { Github, Linkedin, Instagram, Mail } from 'lucide-react';
+// import { Github, Linkedin, Instagram, Mail } from 'lucide-react';
 
 const Footer = () => {
   // const navLinks = [
@@ -10,12 +10,12 @@ const Footer = () => {
   //   { name: 'Contact', id: 'contact' },
   // ];
 
-  const socialLinks = [
-    { icon: <Github className="w-5 h-5" />, href: "https://github.com/Venkie07", label: "Github" },
-    { icon: <Linkedin className="w-5 h-5" />, href: "https://www.linkedin.com/in/venkateswaran-k-401573340/", label: "Linkedin" },
-    { icon: <Instagram className="w-5 h-5" />, href: "https://www.instagram.com/venkates_._2007/", label: "Instagram" },
-    { icon: <Mail className="w-5 h-5" />, href: "mailto:venkateswaran01092007@gmail.com", label: "Email" },
-  ];
+  // const socialLinks = [
+  //   { icon: <Github className="w-5 h-5" />, href: "https://github.com/Venkie07", label: "Github" },
+  //   { icon: <Linkedin className="w-5 h-5" />, href: "https://www.linkedin.com/in/venkateswaran-k-401573340/", label: "Linkedin" },
+  //   { icon: <Instagram className="w-5 h-5" />, href: "https://www.instagram.com/venkates_._2007/", label: "Instagram" },
+  //   { icon: <Mail className="w-5 h-5" />, href: "mailto:venkateswaran01092007@gmail.com", label: "Email" },
+  // ];
 
   // const scrollToSection = (id: string) => {
   //   const element = document.getElementById(id);
