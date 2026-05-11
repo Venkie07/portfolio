@@ -7,7 +7,8 @@ import {
   Instagram,
   Send,
   Phone,
-  ArrowUpRight
+  ArrowUpRight,
+  MessageCircleMore
 } from 'lucide-react';
 
 interface BentoCardProps {
@@ -63,7 +64,7 @@ const BentoCard = ({
         </div>
 
         <div className="mt-auto">
-          <span className="text-[10px] font-bold uppercase tracking-[0.2em] text-foreground/40 mb-1 block">
+          <span className="text-[15px] md:text-[10px] font-bold uppercase tracking-[0.2em] text-foreground/40 mb-1 block">
             {title}
           </span>
 
@@ -98,8 +99,9 @@ const Contact = () => {
           value="venkateswaran01092007@gmail.com"
           icon={<Mail className="w-8 h-8" />}
           href="mailto:venkateswaran01092007@gmail.com"
-          colSpan="col-span-2 md:col-span-2"
+          colSpan="col-span-1 md:col-span-2"
         />
+
 
         {/* LinkedIn */}
         <BentoCard
@@ -116,7 +118,7 @@ const Contact = () => {
           icon={<Github className="w-8 h-8" />}
           href="https://github.com/Venkie07"
         />
-
+        
         {/* Mobile Number (replaces Location) */}
         <BentoCard
           title="Mobile"
@@ -133,10 +135,18 @@ const Contact = () => {
           href="https://www.instagram.com/venkates_._2007/"
         />
 
+        <BentoCard
+          title="Whatsapp"
+          value="DM me if you want"
+          icon={<MessageCircleMore className="w-8 h-8" />}
+          href="https://wa.me/917338721949"
+          colSpan="col-span-1 md:col-span-2"
+        />
+
         {/* Contact Form (full row mobile) */}
         <motion.div
           className="
-            col-span-2 md:col-span-2
+            col-span-2 md:col-span-4
             glass-card
             !p-5 md:!p-6
             bg-purple-600

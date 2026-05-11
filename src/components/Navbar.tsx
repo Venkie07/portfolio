@@ -1,6 +1,7 @@
 import { useState, useEffect, useRef } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
 import { Menu, X } from 'lucide-react';
+import logo from '../assets/image.png';
 // import ThemeToggle from './ThemeToggle.tsx';
 
 const navItems = [
@@ -70,12 +71,31 @@ const Navbar = () => {
           {/* Logo */}
           <button
             onClick={() => scrollToSection('home')}
-            className="text-2xl font-bold italic tracking-tighter flex items-center gap-2 group cursor-pointer"
+            className="group flex items-center gap-3 cursor-pointer select-none"
           >
-            <div className="w-8 h-8 rounded-full bg-purple-600 flex items-center justify-center text-white text-sm not-italic group-hover:scale-110 transition-transform font-black">
-              VK
+            {/* Logo */}
+            <div className="relative w-11 h-11  overflow-hidden bg-white/0  border border-white/0  transition-all duration-300 group-hover:scale-105 group-hover:rotate-3 ">
+
+
+              <img
+                src={logo}
+                alt="Venkie Logo"
+                className="relative z-10 w-full h-full object-contain p-1"
+              />
             </div>
-            {/* <span className="hidden sm:inline">VENKIE<span className="text-purple-500">.</span></span> */}
+
+            {/* Text */}
+            <div className="flex items-center">
+              <span className="hidden sm:flex text-2xl font-black tracking-tight">
+                <span className="text-white group-hover:text-purple-400 transition-colors duration-300">
+                  Venkateswaran
+                </span>
+
+                <span className="text-purple-500 group-hover:text-white transition-colors duration-300 pl-1">
+                  .K
+                </span>
+              </span>
+            </div>
           </button>
 
           {/* Desktop Nav Items */}
@@ -136,8 +156,8 @@ const Navbar = () => {
                   key={item.id}
                   onClick={() => scrollToSection(item.id)}
                   className={`p-4 rounded-2xl text-lg font-bold flex justify-between items-center w-full text-left cursor-pointer ${activeSection === item.id
-                      ? "bg-purple-600 text-white"
-                      : "hover:bg-foreground/5"
+                    ? "bg-purple-600 text-white"
+                    : "hover:bg-foreground/5"
                     }`}
                 >
                   {item.name}

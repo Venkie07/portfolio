@@ -1,4 +1,4 @@
-import { Suspense, lazy } from 'react';
+import { Suspense, lazy, useEffect } from 'react';
 import { ThemeProvider } from './context/ThemeContext';
 import Navbar from './components/Navbar.tsx';
 import Footer from './components/Footer.tsx';
@@ -17,6 +17,11 @@ const PageLoader = () => (
 );
 
 function App() {
+  useEffect(() => {
+    // Force scroll to top on initial load/reload
+    window.scrollTo(0, 0);
+  }, []);
+
   return (
     <ThemeProvider>
       {/* <BlobCursor

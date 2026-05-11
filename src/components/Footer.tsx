@@ -30,7 +30,7 @@ const Footer = () => {
         <div className="grid grid-cols-1 md:grid-cols-12 gap-12 mb-16">
 
           {/* Brand Section */}
-          <div className="md:col-span-5 flex flex-col gap-6">
+          {/* <div className="md:col-span-5 flex flex-col gap-6">
             <h2 className="text-3xl font-black italic tracking-tighter">
               Venkateswaran K<span className="text-purple-500">.</span>
             </h2>
@@ -51,7 +51,7 @@ const Footer = () => {
                 </a>
               ))}
             </div>
-          </div>
+          </div> */}
 
           {/* Quick Links
           <div className="md:col-span-3">
@@ -71,9 +71,9 @@ const Footer = () => {
           </div> */}
 
           {/* Theme & Meta */}
-          <div className="md:col-span-7 flex flex-col items-start md:items-end gap-8">
+          <div className="md:col-span-12 flex flex-col gap-8">
 
-            <div className="flex items-center gap-3">
+            <div className="flex items-center gap-3 md:justify-end">
 
               <span className="text-[15px] font-bold uppercase tracking-[0.2em] text-foreground/90 leading-none">
                 Theme :
@@ -84,13 +84,13 @@ const Footer = () => {
               </div>
 
             </div>
-
-            <div className="p-6 rounded-2xl bg-purple-500/5 border border-white/5 w-full">
-              <p className="text-s text-foreground/70 leading-relaxed italic">
-                "Turning ideas into impactful technology. Innovation begins with curiosity."
-              </p>
+            <div className="flex items-center justify-center gap-3">
+              <div className="p-6 rounded-2xl bg-purple-500/5 border border-white/5 max-w-2xl w-full text-center">
+                <p className="text-s text-foreground/70 leading-relaxed italic">
+                  "Turning ideas into impactful technology. Innovation begins with curiosity."
+                </p>
+              </div>
             </div>
-
           </div>
         </div>
 
