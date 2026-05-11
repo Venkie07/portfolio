@@ -1,0 +1,36 @@
+# 🏗️ Architecture & Design Decisions
+
+## 1. Design Philosophy
+The portfolio follows a "Futuristic Minimalist" approach. The primary design language is **Glassmorphism**, which uses backdrop blurs and subtle borders to create depth and visual interest without clutter.
+
+- **Color Palette**: 
+  - Dark Mode: Deep Dark Blue (`#030712`) with Purple and Blue accents.
+  - Light Mode: Soft White (`#fafafa`) with vibrant Purple accents.
+- **Typography**: Utilizing 'Inter' and 'Outfit' for a clean, modern, and highly readable look.
+
+## 2. Integration of `help_code.txt` Components
+The specialized components were integrated and refined for production:
+
+- **DotField**: Used as a subtle, interactive background in the Hero section to add movement without distraction.
+- **MagicBento**: Reimagined as a responsive grid on the Contact page, providing a modular and modern way to present social and communication channels.
+- **PillNav Style**: Integrated into the main Navbar using Framer Motion's `layoutId` for smooth active-state transitions.
+- **Spotlight/Glow Effects**: Applied across `GlassCard` components using custom CSS utilities in `globals.css`.
+
+## 3. Responsiveness Strategy
+The website uses a **Mobile-First** approach:
+- **Grid Layouts**: Dynamic column counts (1 column on mobile, 2 or 3 on desktop) for pages like About and Achievements.
+- **Spacing**: Utilizing Tailwind's spacing system with standard `px-6 md:px-12` containers to ensure perfect alignment across devices.
+- **Typography Scaling**: Responsive font sizes (`text-4xl md:text-6xl`) to maintain impact on all screen sizes.
+
+## 4. Performance & Optimization
+- **Lazy Loading**: Route-based code splitting using `Suspense` and `lazy` to reduce initial bundle size.
+- **3D Optimization**: 
+  - Using `Stage` and `Environment` from `@react-three/drei` for optimized lighting.
+  - Caching 3D models and using low-poly models for mobile performance.
+- **Animations**: Using `AnimatePresence` for smooth route transitions and `whileInView` for scroll-triggered animations to prevent unnecessary resource usage.
+
+## 5. Technical Implementation
+- **Theme Engine**: Implemented via `ThemeContext` using a "Class Strategy" (`dark` class on root element) and synchronized with `localStorage` for persistence.
+- **State Management**: Context API for global state (theme), and local `useState` for component-level interaction (mobile menu).
+
+This architecture ensures the portfolio is not only visually stunning but also highly maintainable and performant.
