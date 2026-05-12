@@ -149,7 +149,7 @@ const Hero = () => {
             >
               <span className="w-12 h-[1px] bg-purple-500 hidden lg:block" />
 
-              <span className="text-purple-500 font-bold tracking-[0.2em] uppercase text-[9px] sm:text-[10px] md:text-xs">
+              <span className="text-purple-500 md:font-bold tracking-[0.2em] uppercase text-[12px] sm:text-[15px] text-md md:text-xs">
                 Developer | Problem Solver | Tech Enthusiast
               </span>
             </motion.div>
@@ -161,7 +161,7 @@ const Hero = () => {
                 text-4xl
                 sm:text-5xl
                 md:text-6xl
-                xl:text-7xl
+                xl:text-6xl
                 font-black
                 leading-[1.05]
                 lg:leading-[0.95]
@@ -169,10 +169,8 @@ const Hero = () => {
                 break-words
               "
             >
-              Venkateswaran
-              <br className="hidden sm:block" />
-
-              <span className="gradient-text"> K.</span>
+              Venkateswaran<span className="gradient-text ml-4">K</span>
+              {/* <br className="hidden sm:block" /> */}
             </motion.h1>
 
             {/* DESCRIPTION */}

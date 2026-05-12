@@ -64,7 +64,7 @@ const BentoCard = ({
         </div>
 
         <div className="mt-auto">
-          <span className="text-[15px] md:text-[10px] font-bold uppercase tracking-[0.2em] text-foreground/40 mb-1 block">
+          <span className="text-[12px] md:text-[10px] font-bold uppercase tracking-[0.2em] text-foreground/40 mb-1 block">
             {title}
           </span>
 

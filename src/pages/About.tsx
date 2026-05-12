@@ -76,9 +76,11 @@ const About = () => {
               {[
                 { label: "Location", value: "Chennai, India" },
                 { label: "Status", value: "Self Educating" },
+                { label: "Focus", value: "Full Stack + AI" },
+                
               ].map((item, i) => (
                 <div key={i} className="flex justify-between items-center text-xs">
-                  <span className="text-foreground/40">{item.label}</span>
+                  <span className="text-foreground/80 text-sm">{item.label}</span>
                   <span className="font-semibold">{item.value}</span>
                 </div>
               ))}
