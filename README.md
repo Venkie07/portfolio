@@ -1,16 +1,35 @@
-Here’s your **single clean ready-to-copy README.md** (no extra formatting needed):
 
-```md
 # ⚡ Venkateswaran K — AI & Full Stack Developer Portfolio
 
-> 🚀 Building intelligent, interactive, and modern web experiences with AI + creativity
+> ## 🚀 Building intelligent, interactive, and modern web experiences with AI + creativity
 
 ---
 
-## 🌐 Live Portfolio
-👉 https://venkateswaran-k.web.app
+<br>
+<br>
+
+<p align="center">
+  <img src="https://venkateswaran-k.web.app/og-image.jpg"
+       width="260"
+       height="260"
+       style="border-radius: 50%; object-fit: cover; border: 3px solid #7c3aed;" />
+</p>
+
+# 🌐 Live Portfolio
+
+🚀 Experience my work live:
+
+<p align="left">
+<a href="https://venkateswaran-k.web.app" target="_blank" rel="noopener noreferrer">
+  <img src="https://img.shields.io/badge/🚀%20Visit%20Portfolio-Live%20Website-7c3aed?style=for-the-badge&logo=google-chrome&logoColor=white"/>
+</a>
+</p>
 
 ---
+
+<br>
+<br>
+
 
 ## 👨‍💻 About Me
 
@@ -23,6 +42,9 @@ AI & Data Science student passionate about:
 - 🎯 Competitive coding & problem solving  
 
 ---
+<br>
+<br>
+
 
 ## ✨ Portfolio Highlights
 
@@ -37,6 +59,9 @@ AI & Data Science student passionate about:
 
 ---
 
+<br>
+<br>
+
 ## 🛠️ Tech Stack
 
 **Frontend:** React, TypeScript, Tailwind CSS, Vite  
@@ -46,14 +71,32 @@ AI & Data Science student passionate about:
 **Cloud Code:** Github
 ---
 
+<br>
+<br>
+
+
 ## 📬 Connect With Me
 
-- GitHub: https://github.com/Venkie07  
-- LinkedIn: https://www.linkedin.com/in/venkateswaran-k-401573340/  
-- Instagram: https://www.instagram.com/venkates_._2007/  
-- Email: mailto:venkateswaran01092007@gmail.com  
+Let’s connect and build something amazing 🚀
+
+<p align="left" padding-right = 20px>
+
+<a href="https://github.com/Venkie07" target="_blank" rel="noopener noreferrer">
+  <img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white"/>
+</a><a href="https://www.linkedin.com/in/venkateswaran-k-401573340/" target="_blank" rel="noopener noreferrer">
+  <img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white"/>
+</a><a href="https://www.instagram.com/venkates_._2007/" target="_blank" rel="noopener noreferrer">
+  <img src="https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white"/>
+</a><a href="mailto:venkateswaran01092007@gmail.com" rel="noopener noreferrer">
+  <img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white"/>
+</a>
+
+</p>
 
 ---
+<br>
+<br>
+<br>
 
 ## 🚀 Goal
 
@@ -61,5 +104,4 @@ Becoming a top-tier Software Engineer specializing in AI systems, scalable web a
 
 ---
 
-⭐ If you like this project, give it a star!
-```
+**⭐ If you like this project, give it a star!**
