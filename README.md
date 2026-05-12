@@ -8,13 +8,17 @@
 <br>
 <br>
 
-<p align="center">
-  <img src="https://venkateswaran-k.web.app/og-image.jpg"
-       width="260"
-       height="260"
-       style="border-radius: 50%; object-fit: cover; border: 3px solid #7c3aed;" />
-</p>
+<table>
+  <tr>
+    <td width="240" align="center">
+      <img src="https://venkateswaran-k.web.app/og-image.jpg" width="200" height="200">
+    </td>
+    <td>Hi, I'm <b>Venkateswaran K</b>, an AI & Data Science student from Chennai 🇮🇳 passionate about building modern web applications using React, TypeScript, and AI technologies. I love creating clean, interactive, and performance-optimized user experiences while continuously improving my skills in full-stack development and machine learning.</td>
+  </tr>
+</table>
+<br>
 
+---
 # 🌐 Live Portfolio
 
 🚀 Experience my work live:
