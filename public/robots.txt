@@ -1,4 +1,25 @@
 User-agent: *
 Allow: /
 
+User-agent: facebookexternalhit
+Allow: /
+
+User-agent: twitterbot
+Allow: /
+
+User-agent: linkedinbot
+Allow: /
+
+User-agent: discordbot
+Allow: /
+
+User-agent: WhatsApp
+Allow: /
+
+User-agent: TelegramBot
+Allow: /
+
+User-agent: Telegram
+Allow: /
+
 Sitemap: https://venkateswaran-k.web.app/sitemap.xml
