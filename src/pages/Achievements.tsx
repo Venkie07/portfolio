@@ -28,6 +28,8 @@ import Course6 from '../assets/Certificates/cource/c6.jpg';
 import Course7 from '../assets/Certificates/cource/c7.jpg';
 import Course8 from '../assets/Certificates/cource/c8.jpg';
 import Course9 from '../assets/Certificates/cource/c9.png';
+import Course10 from '../assets/Certificates/cource/c10.png';
+import Course11 from '../assets/Certificates/cource/c11.png';
 
 /* =========================
    EVENT CERTIFICATES
@@ -277,6 +279,24 @@ const Achievements = () => {
       image: Course9,
       verification: true,
       verificationLink: 'https://coursera.org/verify/X51U1LVMHQEJ'
+    },
+    {
+      title: 'Introduction to Industry 4.0 and Industrial IoT',
+      category: 'Course',
+      description:
+        'Explored the future of smart manufacturing through Industry 4.0 concepts, Industrial IoT, automation, connected systems, AI-driven analytics, and intelligent data-powered technologies shaping modern industries.',
+      date: '2026',
+      image: Course10,
+      verification: false,
+    },
+    {
+      title: 'Design Thinking - A Primer',
+      category: 'Course',
+      description:
+        'Learned the fundamentals of design thinking and how to apply it to solve complex problems.',
+      date: '2026',
+      image: Course11,
+      verification: false
     }
   ];
 
@@ -317,7 +337,7 @@ const Achievements = () => {
       title: 'Full Throttle Code - 2nd Prize',
       category: 'Event',
       description: 'Secured second place in the Full Throttle Code competition, at Sairam Engineering College.',
-      date: '2024',
+      date: '2025',
       image: Event5,
       verification: false
     },
@@ -341,7 +361,7 @@ const Achievements = () => {
       title: 'Cosmic Compile - 2nd Prize',
       category: 'Event',
       description: 'Got 2nd Prize in Cosmic compile - a Coding Event At R.M.K College of Engineering',
-      date: '2024',
+      date: '2026',
       image: Event8,
       verification: false
     },
@@ -349,7 +369,7 @@ const Achievements = () => {
       title: 'Think & Ink 3.0 - 2nd Prize',
       category: 'Event',
       description: 'Got 2nd Prize in Cosmic compile - a Technical Quiz Event At R.M.K College of Engineering',
-      date: '2025',
+      date: '2026',
       image: Event9,
       verification: false
     },
@@ -357,7 +377,7 @@ const Achievements = () => {
       title: 'Neo Hawkins - 1st Prize',
       category: 'Event',
       description: 'Secured 1st Prize in Neo Hawkins A UI/UX Designing Event',
-      date: '2025',
+      date: '2026',
       image: Event10,
       verification: false
     },
@@ -365,7 +385,7 @@ const Achievements = () => {
       title: 'Poster X',
       category: 'Event',
       description: 'Actively participated in the Poster X event, showcasing design skills by creating impactful posters using Canva.',
-      date: '2025',
+      date: '2026',
       image: Event11,
       verification: false
     },
